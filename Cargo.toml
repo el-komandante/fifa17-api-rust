@@ -1,0 +1,15 @@
+[package]
+name = "fifa-app-api"
+version = "0.1.0"
+authors = ["el-komandante <rudydeberry@hotmail.com>"]
+
+[dependencies]
+nickel = "*"
+diesel = "0.9.0"
+diesel_codegen = { version = "0.9.0", features = ["postgres"] }
+dotenv = "0.8.0"
+rustc-serialize = "*"
+chrono = "0.2"
+# jwt = "*"
+# hyper = "*"
+# rust-crypto = "*"
